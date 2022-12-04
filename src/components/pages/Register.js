@@ -65,6 +65,9 @@ export default function SignUp() {
   return (
     <div className="container">
       <h1>Register</h1>
+      <p className="centeredText">
+        Register now to join a collective of developers
+      </p>
       <Form className="form" onSubmit={handleSubmit(onSubmit)}>
         {loginError && <p>{loginError}</p>}
         <Form.Group className="mb-3" controlId="formGroupEmail">
